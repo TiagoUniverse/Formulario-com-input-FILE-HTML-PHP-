@@ -30,5 +30,6 @@ move_uploaded_file($_FILES['fileEscolaridade']["tmp_name"] , $diretorio . $novoN
 </head>
 <body>
     <h1>Arquivo salvo!</h1>
+    <a href="<?php echo $diretorio . $novoNome; ?> "  target="_blank">arquivo</a>
 </body>
 </html>
